@@ -1,0 +1,15 @@
+tensorflow==2.0
+keras
+opencv-python
+git+https://github.com/rcmalli/keras-vggface.git
+mtcnn
+cython
+setuptools
+nmslib
+pandas
+cmake
+dlib
+imutils
+jupyter
+pillow
+matplotlib

@@ -1,0 +1,10 @@
+python prepare_data\download_images.py --urls prepare_data\urls.txt --output data\images\angelamerkel
+python prepare_data\rearrange_images.py -src data\images -dst data\processed_images
+
+activate mldl
+conda update conda
+conda update anaconda
+conda install -c conda-forge dlib
+pip install -r requirements.txt
+conda install ipykernel
+python -m ipykernel install --user --name mldl --display-name mldl
