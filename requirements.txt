@@ -1,4 +1,4 @@
-tensorflow==2.0.1
+tensorflow==2.7.2
 keras
 opencv-python
 git+https://github.com/rcmalli/keras-vggface.git
